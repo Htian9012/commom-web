@@ -103,7 +103,7 @@
 	</dependency>
 </dependencies>
     <build>
-	<finalName>com-lzh-server</finalName>
+	<finalName>commom-web</finalName>
 	<plugins>
 		<!-- <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
