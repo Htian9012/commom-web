@@ -23,7 +23,7 @@ import com.lzh.mybatis.mapper.MscUserMapper;
 
 /**
  * 用户认证实现
- * Created by Acris on 2017/5/11.
+ * Created by htian
  */
 @Component
 public class UserAuthenticationService {

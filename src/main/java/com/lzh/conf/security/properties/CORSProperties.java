@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * CORS属性
- * Created by Acris on 2017/5/12.
+ * Created by htian on 2017/5/12.
  */
 @Configuration
 @ConfigurationProperties(prefix = "app.security.cors")

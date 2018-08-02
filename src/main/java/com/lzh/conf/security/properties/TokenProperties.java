@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Token认证接口属性
- * Created by Acris on 2017/5/12.
+ * Created by htian
  */
 @Configuration
 @ConfigurationProperties(prefix = "app.security.token")
