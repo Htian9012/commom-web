@@ -25,7 +25,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 /**
  * Token生产工厂类
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class JwtTokenFactory {

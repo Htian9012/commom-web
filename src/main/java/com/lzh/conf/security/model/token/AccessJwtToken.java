@@ -6,7 +6,7 @@ import io.jsonwebtoken.Claims;
 /**
  * Access Jwt Token对象
  *
- * @author Acris Liu
+ * @author htian
  */
 public final class AccessJwtToken implements JwtToken {
     private final String rawToken;

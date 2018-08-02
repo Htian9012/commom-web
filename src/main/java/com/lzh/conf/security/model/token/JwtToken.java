@@ -3,7 +3,7 @@ package com.lzh.conf.security.model.token;
 /**
  * JWT Token接口
  *
- * @author Acris Liu
+ * @author htian
  */
 public interface JwtToken {
     /**

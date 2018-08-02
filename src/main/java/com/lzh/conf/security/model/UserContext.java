@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 用户上下文对象
  *
- * @author Acris Liu
+ * @author htian
  */
 public class UserContext {
     private final String username;

@@ -19,7 +19,7 @@ import com.lzh.conf.security.exceptions.AuthMethodNotSupportedException;
 /**
  * 登录失败错误捕获
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class AjaxAwareAuthenticationFailureHandler implements AuthenticationFailureHandler {

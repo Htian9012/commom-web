@@ -17,7 +17,7 @@ import com.lzh.conf.security.exceptions.JwtExpiredTokenException;
 /**
  * 登录失败错误捕获
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class JwtAuthenticationFailureHandler implements AuthenticationFailureHandler {

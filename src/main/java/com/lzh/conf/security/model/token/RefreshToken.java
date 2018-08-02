@@ -14,7 +14,7 @@ import io.jsonwebtoken.Jws;
 /**
  * Refresh Token对象
  *
- * @author Acris Liu
+ * @author htian
  */
 @SuppressWarnings("unchecked")
 public class RefreshToken implements JwtToken {

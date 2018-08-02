@@ -19,7 +19,7 @@ import com.lzh.mybatis.entity.MscUser;
 /**
  * Ajax登录实现类
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class AjaxAuthenticationProvider implements AuthenticationProvider {

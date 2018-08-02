@@ -27,7 +27,7 @@ import com.lzh.conf.security.utils.AuthUtils;
 /**
  * 登录请求处理
  *
- * @author Acris Liu
+ * @author htian
  */
 public class AjaxLoginProcessingFilter extends AbstractAuthenticationProcessingFilter {
     private static Logger log = LoggerFactory.getLogger(AjaxLoginProcessingFilter.class);

@@ -22,7 +22,7 @@ import com.lzh.conf.security.properties.JwtProperties;
 /**
  * 刷新Token接口
  *
- * @author Acris Liu
+ * @author htian
  */
 @RestController
 public class RefreshTokenEndpoint {

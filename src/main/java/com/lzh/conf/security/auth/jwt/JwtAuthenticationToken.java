@@ -12,7 +12,7 @@ import com.lzh.conf.security.model.token.RawAccessJwtToken;
 /**
  * JWT Token对象
  *
- * @author Acris Liu
+ * @author htian
  */
 public class JwtAuthenticationToken extends AbstractAuthenticationToken {
     private static final long serialVersionUID = 1L;

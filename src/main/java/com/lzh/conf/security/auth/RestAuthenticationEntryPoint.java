@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 /**
  * 未授权时的错误捕获入口
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class RestAuthenticationEntryPoint implements AuthenticationEntryPoint {

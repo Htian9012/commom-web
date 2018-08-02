@@ -22,7 +22,7 @@ import io.jsonwebtoken.Jws;
 /**
  * Token验证实现
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 @SuppressWarnings("unchecked")

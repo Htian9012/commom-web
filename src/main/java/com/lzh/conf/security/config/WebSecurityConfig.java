@@ -37,7 +37,7 @@ import com.lzh.conf.security.properties.TokenProperties;
 /**
  * Spring Security配置类
  *
- * @author Acris Liu
+ * @author htian
  */
 @Configuration
 @EnableWebSecurity

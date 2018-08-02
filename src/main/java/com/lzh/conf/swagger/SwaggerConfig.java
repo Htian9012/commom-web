@@ -46,7 +46,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {  
         return new ApiInfoBuilder()  
                 .title("这是一个测试项目，用于新架构的示范")  
-                .termsOfServiceUrl("http://106.14.113.68:8080/index.html")  
+                .termsOfServiceUrl("https://github.com/HTian1992")
                 .contact(new Contact("lizehao", "", "641801732@qq.com"))
                 .version("1.0")  
                 .build();  

@@ -9,7 +9,7 @@ import com.lzh.conf.security.config.WebSecurityConfig;
 /**
  * Token提取器
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class TokenExtractor {

@@ -26,7 +26,7 @@ import com.lzh.conf.security.model.token.JwtTokenFactory;
 /**
  * Ajax登录成功处理类
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class AjaxAwareAuthenticationSuccessHandler implements AuthenticationSuccessHandler {

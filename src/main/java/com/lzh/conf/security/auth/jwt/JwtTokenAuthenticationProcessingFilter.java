@@ -23,7 +23,7 @@ import com.lzh.conf.security.model.token.RawAccessJwtToken;
 /**
  * Token验证请求处理
  *
- * @author Acris Liu
+ * @author htian
  */
 public class JwtTokenAuthenticationProcessingFilter extends AbstractAuthenticationProcessingFilter {
     private final AuthenticationFailureHandler failureHandler;

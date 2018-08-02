@@ -8,7 +8,7 @@ import com.lzh.conf.security.model.UserContext;
 /**
  * 登录工具类
  *
- * @author Acris Liu
+ * @author htian
  */
 public class AuthUtils {
     private static final String XML_HTTP_REQUEST = "XMLHttpRequest";

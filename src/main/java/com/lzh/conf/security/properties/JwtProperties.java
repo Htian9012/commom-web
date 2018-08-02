@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * JWT属性配置
  *
- * @author Acris Liu
+ * @author htian
  */
 @Configuration
 @ConfigurationProperties(prefix = "app.security.jwt")

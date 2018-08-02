@@ -7,7 +7,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 /**
  * 密码加密器
  *
- * @author Acris Liu
+ * @author htian
  */
 @Configuration
 public class PasswordEncoderConfig {

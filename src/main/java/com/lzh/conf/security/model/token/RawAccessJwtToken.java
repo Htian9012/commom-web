@@ -17,7 +17,7 @@ import io.jsonwebtoken.UnsupportedJwtException;
 /**
  * 原始Access Jwt Token对象
  *
- * @author Acris Liu
+ * @author htian
  */
 public class RawAccessJwtToken implements JwtToken {
     private static Logger log = LoggerFactory.getLogger(RawAccessJwtToken.class);

@@ -15,7 +15,7 @@ import org.springframework.util.Assert;
 /**
  * 需要跳过的资源匹配器
  *
- * @author Acris Liu
+ * @author htian
  */
 public class SkipPathRequestMatcher implements RequestMatcher {
     private OrRequestMatcher matcher;

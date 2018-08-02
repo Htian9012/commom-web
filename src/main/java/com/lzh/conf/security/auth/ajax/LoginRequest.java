@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * 登录请求对象
  *
- * @author Acris Liu
+ * @author htian
  */
 public class LoginRequest {
     private String username;

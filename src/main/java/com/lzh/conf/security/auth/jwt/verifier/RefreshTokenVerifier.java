@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 /**
  * Refresh Token验证器
  *
- * @author Acris Liu
+ * @author htian
  */
 @Component
 public class RefreshTokenVerifier {

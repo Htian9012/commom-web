@@ -7,7 +7,7 @@ import com.lzh.conf.security.model.token.JwtToken;
 /**
  * Token过期错误类
  *
- * @author Acris Liu
+ * @author htian
  */
 public class JwtExpiredTokenException extends AuthenticationException {
 
