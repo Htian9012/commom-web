@@ -1,7 +1,7 @@
 # commom-web
  * 采用spring mvc ,spring security + mybatis +jwt
  * 前端采用vue / element，后台提供供前端绑数据的接口管理页面
- * 很久前。。站在巨人的肩膀上弄的一个demo，最近由于求职放到git上，仅展示用，欢迎一起改进交流~~！
+ * 很久前做的一个demo，最近由于求职放到git上，仅展示用，欢迎一起改进交流~~！
 ### 项目结构
  ![图片](https://raw.githubusercontent.com/HTian1992/commom-web/master/doc/A001.png)
   
