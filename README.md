@@ -14,8 +14,8 @@
     ![示例](https://raw.githubusercontent.com/HTian1992/commom-web/master/doc/B002.png)
     ![示例](https://raw.githubusercontent.com/HTian1992/commom-web/master/doc/B003.png)
   * 前端管理项目，完善中..
-  ![示例](https://raw.githubusercontent.com/HTian1992/commom-vue-web/master/doc/O002.png)
-   ![示例](https://raw.githubusercontent.com/HTian1992/commom-vue-web/master/doc/O001.png)
+   ![示例](https://raw.githubusercontent.com/HTian1992/commom-vue/master/doc/O002.png)
+   ![示例](https://raw.githubusercontent.com/HTian1992/commom-vue/master/doc/O001.png)
 
 
 
