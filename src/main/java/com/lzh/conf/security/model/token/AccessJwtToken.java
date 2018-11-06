@@ -18,6 +18,7 @@ public final class AccessJwtToken implements JwtToken {
         this.claims = claims;
     }
 
+    @Override
     public String getToken() {
         return this.rawToken;
     }

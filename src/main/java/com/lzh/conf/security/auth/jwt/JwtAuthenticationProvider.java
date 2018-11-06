@@ -34,6 +34,7 @@ public class JwtAuthenticationProvider implements AuthenticationProvider {
         this.jwtProperties = jwtProperties;
     }
 
+    @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         RawAccessJwtToken rawAccessToken = (RawAccessJwtToken) authentication.getCredentials();
 

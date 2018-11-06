@@ -22,6 +22,7 @@ import com.lzh.conf.security.exceptions.JwtExpiredTokenException;
 @Component
 public class JwtAuthenticationFailureHandler implements AuthenticationFailureHandler {
 
+    @Override
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException e) throws IOException, ServletException {
         String failureMessage;
         int httpCode = HttpStatus.UNAUTHORIZED.value();

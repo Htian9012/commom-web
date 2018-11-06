@@ -32,7 +32,7 @@ public class AjaxAuthenticationProvider implements AuthenticationProvider {
         this.encoder = encoder;
         this.userAuthenticationService = userAuthenticationService;
     }
-
+    @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         Assert.notNull(authentication, "未找到认证信息");
         String username = (String) authentication.getPrincipal();

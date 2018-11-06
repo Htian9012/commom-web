@@ -23,7 +23,7 @@ import com.lzh.conf.security.exceptions.AuthMethodNotSupportedException;
  */
 @Component
 public class AjaxAwareAuthenticationFailureHandler implements AuthenticationFailureHandler {
-
+    @Override
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException e) throws IOException, ServletException {
         String failureMessage;
         if (e instanceof BadCredentialsException) {

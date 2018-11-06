@@ -20,7 +20,9 @@ public class UserContext {
     }
 
     public static UserContext create(String username, List<GrantedAuthority> authorities) {
-        if (Strings.isNullOrEmpty(username)) throw new IllegalArgumentException("用户名为空");
+        if (Strings.isNullOrEmpty(username)) {
+            throw new IllegalArgumentException("用户名为空");
+        }
         return new UserContext(username, authorities);
     }
 

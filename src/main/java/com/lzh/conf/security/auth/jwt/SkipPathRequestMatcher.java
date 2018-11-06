@@ -28,6 +28,7 @@ public class SkipPathRequestMatcher implements RequestMatcher {
         processingMatcherList = Arrays.stream(processingPaths).map(AntPathRequestMatcher::new).collect(toList());
     }
 
+    @Override
     public boolean matches(HttpServletRequest request) {
         return !matcher.matches(request) && processingMatcherList.stream().anyMatch(processingMatcher -> processingMatcher.matches(request));
     }

@@ -33,7 +33,7 @@ public class JwtAuthenticationToken extends AbstractAuthenticationToken {
         super.setAuthenticated(true);
     }
 
-    
+    @Override
     public void setAuthenticated(boolean authenticated) {
         if (authenticated) {
             throw new IllegalArgumentException("请使用构造方法设置该属性");
@@ -41,17 +41,17 @@ public class JwtAuthenticationToken extends AbstractAuthenticationToken {
         super.setAuthenticated(false);
     }
 
-    
+    @Override
     public Object getCredentials() {
         return rawAccessToken;
     }
 
-    
+    @Override
     public Object getPrincipal() {
         return this.userContext;
     }
 
-    
+    @Override
     public void eraseCredentials() {
         super.eraseCredentials();
         this.rawAccessToken = null;

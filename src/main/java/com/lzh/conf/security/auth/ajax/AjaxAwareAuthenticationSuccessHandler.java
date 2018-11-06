@@ -38,7 +38,7 @@ public class AjaxAwareAuthenticationSuccessHandler implements AuthenticationSucc
         this.mapper = mapper;
         this.tokenFactory = tokenFactory;
     }
-
+    @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
                                         Authentication authentication) throws IOException, ServletException {
         UserContext userContext = (UserContext) authentication.getPrincipal();
