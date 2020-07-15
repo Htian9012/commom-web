@@ -20,7 +20,7 @@ public class PermController {
 	@Autowired
 	private MscUserMapper mscUserMapper;
 	
-	@ApiOperation(value = "hello world示例1", notes = "hello world示例1")
+	@ApiOperation(value = "hello world示例 1", notes = "hello world示例1")
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public Response fist(){
 		System.out.println("hello world !");
