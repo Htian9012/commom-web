@@ -49,6 +49,7 @@ public class JwtAuthenticationProvider implements AuthenticationProvider {
         return new JwtAuthenticationToken(context, context.getAuthorities());
     }
 
+    @Override
     public boolean supports(Class<?> authentication) {
         return (JwtAuthenticationToken.class.isAssignableFrom(authentication));
     }

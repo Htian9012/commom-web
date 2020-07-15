@@ -48,6 +48,7 @@ public class AjaxAuthenticationProvider implements AuthenticationProvider {
         return new UsernamePasswordAuthenticationToken(userContext, null, userContext.getAuthorities());
     }
 
+    @Override
     public boolean supports(Class<?> authentication) {
         return (UsernamePasswordAuthenticationToken.class.isAssignableFrom(authentication));
     }
